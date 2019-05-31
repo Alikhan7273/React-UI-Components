@@ -1,1 +1,70 @@
 /* All styles for your header Components live here */
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header img {
+    height: auto; 
+    width: auto; 
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 60%;
+  
+}
+/* header div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0 0 2.5%;
+    border: 2px solid green;
+} */
+.headertitle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+header div h1{
+       font-size: 2.5rem;
+       padding: 0 1%;
+       width: 300px;
+}
+
+.headertitle h2{
+    color: grey;
+    font-weight: normal;
+    font-size: 1.6rem;
+    margin-left: 1%;
+    /* border: 2px solid yellow; */
+}
+
+/* header div h2{
+    padding: 1% 0;
+    color: grey;
+    font-weight: normal;
+    font-size: 1.6rem;
+    margin-left: 1%;
+    border: 2px solid blue;
+
+} */
+
+.content {
+        margin-top:1%;
+       padding: 1%;
+       font-size: 1.6rem;
+       width: 80%;
+}
+
+.titleContainer{
+    margin-left:3%;
+}
+
+.imageContainer{
+    margin-left:3%;
+}

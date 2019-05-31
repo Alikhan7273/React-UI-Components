@@ -1,1 +1,48 @@
 /* All styles for your Card Components live here */
+a {
+    text-decoration: none;
+}
+main {
+      padding: 0 16.5%;
+}
+
+main section {
+    border: 2px grey solid;
+    border-radius: 10px;
+}
+
+main section img {
+    width: 460px;
+    height: 256px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+
+}
+main section div {
+     padding: 1%;
+     color: black;
+     background: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+main section div h1{
+    font-size: 2.5rem;
+
+}
+
+main section div p {
+    font-size: 1.6rem;
+    width: 75%;
+
+}
+
+main section div h2 {
+    color: grey;
+    font-weight: normal;
+    font-size: 1.6rem;
+
+}  
